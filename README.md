@@ -1,6 +1,6 @@
 # OpenGL Animation Scene
 
-![Demo](assets/demo.gif)
+![Demo](assets/demo.png)
 
 Custom 3D Animation Pipeline implemented in modern C++ and OpenGL. The application renders an animated real-time walkthrough through a stylized Japanese garden scene with a textured ground plane, procedural Torii/Toro geometry, dynamic camera motion, projected shadows, and falling sakura petals.
 
