@@ -1,0 +1,53 @@
+# CMake
+/build/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Testing/
+
+# Native build outputs
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.exe
+*.ilk
+*.pdb
+*.idb
+*.exp
+*.manifest
+
+# Visual Studio and MSBuild
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+Win32/
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep the bundled Windows FreeGLUT runtime checked in intentionally.
+!third_party/freeglut/bin/freeglut.dll
+!third_party/freeglut/lib/freeglut.lib
